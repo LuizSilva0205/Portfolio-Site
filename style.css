@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+/*font-family: 'Kanit', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/*'Quicksand', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background: fixed;
+}
+
+header{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 50px;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+header>p{
+    margin: 20px;
+    background-color: black;
+    width: 100vh;
+    height: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.842), purple);
+    height: 100vh;
+}
+
+body>main{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+body>main>section>img#foto_perfil{
+    border-radius: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+}
+
+body>main>section>h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;;
+    margin: 15px 15px 15px 50px;
+    text-shadow: 2px 2px 3px black;
+}
+
+body>main>section>section>h2{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin: 15px 15px 15px 50px;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+body>main>section#info_pessoal{
+    margin-left: 50px;
+    color: white;
+    width: 75%;
+    height: 480px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+body>main>section#info_pessoal>section#colunas{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+body>main>section#info_pessoal>section#colunas>ul>h3{
+    font-family:'Open Sans', sans-serif;
+    padding: 15px;
+}
+body>main>section#info_pessoal>section#colunas>ul{
+    columns: 3;
+}
+
+
+body>main>section>h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(161, 30, 161);
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+img.img_perfis{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+ 
+}
+
+img.img_perfis:hover{
+
+    box-shadow: 3px 3px 5px black;
+}
+
+section#section_perfis{
+    margin-left: 50px;
+}
+
+section#skills>h2#titulo{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+section#skills_app>abbr>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 250px;
+    padding: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 6vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5) black, );
+    padding-top: 4vh;
+}
+
+section#skills_app>abbr>img#office{
+    height: 100px;
+    width: 150px;
+    border-radius: 250px;
+    padding: 15px;
+}
+
+section#skills_app>abbr>img#photo{
+    height: 100px;
+    width: 150px;
+    border-radius: 250px;
+    padding: 15px;
+}
+section#skills_app>abbr>img#vegas{
+    height: 150px;
+    width: 150px;
+    border-radius: 250px;
+    padding: 15px;
+}
+
+section#skills_app>abbr>img#windows{
+    height: 150px;
+    width: 150px;
+    border-radius: 250px;
+    padding: 15px;
+}
+
+section#skills_app>abbr>img#unreal{
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: black;
+}
+
+section#me>h2{
+    color: white;
+    text-align: center;
+    font-family:'Kanit', sans-serif ;
+}
+
+section#biografia{
+    display: block;
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+section#biografia>h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 15px 0px 25px 5px;
+    font-size: 1.5em;background-image: linear-gradient(to right, rgb(164, 170, 187), white);
+
+
+}
+section#biografia>h3#apre{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 25px 5px;
+    font-size: 1.5em;background-image: linear-gradient(to right, rgb(164, 170, 187), white);
+    border-radius: 12px 15px 0px 0px;
+
+}
+
+section#biografia>p{
+    text-indent: 20px;
+    font-family:'Open Sans', sans-serif ;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 35px;
+}
