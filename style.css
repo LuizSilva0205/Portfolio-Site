@@ -147,7 +147,7 @@ section#skills_app>abbr>img#office{
 
 section#skills_app>abbr>img#photo{
     height: 100px;
-    width: 150px;
+    width: 170px;
     border-radius: 250px;
     padding: 15px;
 }
@@ -166,13 +166,18 @@ section#skills_app>abbr>img#windows{
 }
 
 section#skills_app>abbr>img#unreal{
-    height: 120px;
+    height: 130px;
     width: 120px;
     border-radius: 25px;
     padding: 15px;
-    background-color: black;
 }
 
+section#skills_app>abbr>img#blender{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    padding: 15px;
+}
 section#me>h2{
     color: white;
     text-align: center;
@@ -206,8 +211,52 @@ section#biografia>h3#apre{
 
 section#biografia>p{
     text-indent: 20px;
-    font-family:'Open Sans', sans-serif ;
-    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
     padding: 5px;
     line-height: 35px;
+}
+
+section#exe_HTML{
+    background-image: url(imagens/html_exemplo.png);
+    box-shadow: inset 1px 1px 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
+    display: block;
+    margin: auto;
+}
+section#exe_css{
+    background-image: url(imagens/css_exemplo.png);
+    box-shadow: inset 1px 1px 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
+    display: block;
+    margin: auto;
+}
+section#exe_py{
+    background-image: url(imagens/python\ exemplo.png);
+    box-shadow: inset 1px 1px 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
+    display: block;
+    margin: auto;
+}
+section#exe_blender{
+    background-image: url(imagens/blender_exemplo.png);
+    box-shadow: inset 1px 1px 2px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
+    display: block;
+    margin: auto;
 }
