@@ -125,7 +125,6 @@ section#skills>h2#titulo{
 section#skills_app>abbr>img{
     height: 100px;
     width: 100px;
-    border-radius: 250px;
     padding: 15px;
 }
 
@@ -145,6 +144,11 @@ section#skills_app>abbr>img#office{
     padding: 15px;
 }
 
+section#skills_app>abbr>img#js{
+    height: 100px;
+    width: 120px;
+    padding: 15px;
+}
 section#skills_app>abbr>img#photo{
     height: 100px;
     width: 170px;
